@@ -1,0 +1,29 @@
+{
+  "name": "expand-spacings",
+  "version": "1.0.0",
+  "description": "Expands `margin` and `padding` css properties to their long form",
+  "main": "dist/expand-spacings.common.js",
+  "author": "queckezz <fabian.eichenberger@gmail.com>",
+  "repository": "queckezz/expand-spacings",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && ava",
+    "build": "bili --format cjs --format umd --compress"
+  },
+  "keywords": [
+    "css",
+    "css-in-js",
+    "margin",
+    "padding",
+    "spacings",
+    "long form"
+  ],
+  "dependencies": {
+    "@f/zip-obj": "^1.1.1"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "bili": "^0.15.4",
+    "standard": "^10.0.2"
+  }
+}
