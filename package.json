@@ -1,6 +1,6 @@
 {
   "name": "expand-spacings",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Expands `margin` and `padding` css properties to their long form",
   "main": "dist/expand-spacings.common.js",
   "author": "queckezz <fabian.eichenberger@gmail.com>",
