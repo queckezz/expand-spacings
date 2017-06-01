@@ -16,7 +16,7 @@ const directionalProperty = (propName) => (spacings) => {
 const expandFor = (propName) => {
   const getProps = directionalProperty(propName)
 
-  function fn (top, right, left, bottom) {
+  return function (top, right, left, bottom) {
     switch (arguments.length) {
       case 1:
         const all = top
@@ -31,9 +31,6 @@ const expandFor = (propName) => {
         return getProps([top, right, left, bottom])
     }
   }
-
-  fn.name = propName
-  return fn
 }
 
 const padding = expandFor('padding')
